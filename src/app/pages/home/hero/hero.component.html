@@ -1,0 +1,11 @@
+<div class="hero-container">
+    <div class="new">
+        <img src={{hero.img.src}} alt="{{hero.img.alt}}"/>
+    </div>
+    <h2>{{hero.title}}</h2>
+    <div class="hero-content">
+        <div *ngFor="let image of hero.imgGallery">
+            <a href="#"><img src="{{image.src}}" alt="{{image.alt}}" /></a>
+        </div>
+    </div>
+</div>

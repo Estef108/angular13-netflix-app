@@ -1,0 +1,22 @@
+
+.links-container{
+    margin-top: 55px;
+    .link-list{
+        display: flex;
+        margin: 15px;
+        padding-bottom: 30px;
+        list-style: none;
+        justify-content: space-evenly;
+        li{
+            a{
+                text-decoration: none;
+                color: gray;
+                &:hover{
+                    text-decoration: underline;
+                };
+            }
+        }
+    }
+}
+
+
